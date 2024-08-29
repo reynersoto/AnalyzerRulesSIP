@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>AnalyzerTests</id>
+    <version>1.0.0</version>
+    <authors>hatre</authors>
+    <developmentDependency>true</developmentDependency>
+    <licenseUrl>http://license_url_here_or_delete_this_line/</licenseUrl>
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
+    <description>AnalyzerTests</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright</copyright>
+    <tags>AnalyzerTests, analyzers</tags>
+    <repository type="git" url="http://REPOSITORY_URL_HERE_OR_DELETE_THIS_LINE" />
+  </metadata>
+  <files>
+    <file src="C:\AnalyzerTests\AnalyzerTests\AnalyzerTests.Package\bin\Debug\net472\AnalyzerTests.dll" target="analyzers\dotnet\cs\AnalyzerTests.dll" />
+    <file src="C:\AnalyzerTests\AnalyzerTests\AnalyzerTests.Package\bin\Debug\net472\AnalyzerTests.CodeFixes.dll" target="analyzers\dotnet\cs\AnalyzerTests.CodeFixes.dll" />
+    <file src="C:\AnalyzerTests\AnalyzerTests\AnalyzerTests.Package\tools\install.ps1" target="tools\install.ps1" />
+    <file src="C:\AnalyzerTests\AnalyzerTests\AnalyzerTests.Package\tools\uninstall.ps1" target="tools\uninstall.ps1" />
+  </files>
+</package>

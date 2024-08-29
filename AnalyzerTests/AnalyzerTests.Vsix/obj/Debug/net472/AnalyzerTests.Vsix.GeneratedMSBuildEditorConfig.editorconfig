@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = AnalyzerTests.Vsix
+build_property.ProjectDir = C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Vsix\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
