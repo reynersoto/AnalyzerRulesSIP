@@ -129,4 +129,16 @@
     <value>Caracteres por línea superados.</value>
     <comment>The title of the diagnostic.</comment>
   </data>
+  <data name="GP002Titulo" xml:space="preserve">
+    <value>Metodo sobrecargado con código</value>
+  </data>
+  <data name="GP002Mensaje" xml:space="preserve">
+    <value>El método contiene demasiadas líneas de código. Refactorice para mantener un código más legible.</value>
+  </data>
+  <data name="GP002Descripcion" xml:space="preserve">
+    <value>El Método tiene demasiadas líneas de código.</value>
+  </data>
+  <data name="GP001MaxCharInLine" xml:space="preserve">
+    <value>130</value>
+  </data>
 </root>

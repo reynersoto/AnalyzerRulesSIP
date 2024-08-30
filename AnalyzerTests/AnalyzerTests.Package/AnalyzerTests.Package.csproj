@@ -9,7 +9,7 @@
 
   <PropertyGroup>
     <PackageId>AnalyzerTests</PackageId>
-    <PackageVersion>1.0.0.2</PackageVersion>
+    <PackageVersion>1.0.0.4</PackageVersion>
     <Authors>Reiner Mejias</Authors>
     <PackageLicenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</PackageLicenseUrl>
     <PackageProjectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</PackageProjectUrl>

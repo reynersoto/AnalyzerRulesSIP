@@ -70,6 +70,15 @@ namespace AnalyzerTests {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a 130.
+        /// </summary>
+        internal static string GP001MaxCharInLine {
+            get {
+                return ResourceManager.GetString("GP001MaxCharInLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a La línea supera los 130 caracteres, debe continuar en una nueva línea..
         /// </summary>
         internal static string GP001MessageFormat {
@@ -84,6 +93,33 @@ namespace AnalyzerTests {
         internal static string GP001Title {
             get {
                 return ResourceManager.GetString("GP001Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El Método tiene demasiadas líneas de código..
+        /// </summary>
+        internal static string GP002Descripcion {
+            get {
+                return ResourceManager.GetString("GP002Descripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El método contiene demasiadas líneas de código. Refactorice para mantener un código más legible..
+        /// </summary>
+        internal static string GP002Mensaje {
+            get {
+                return ResourceManager.GetString("GP002Mensaje", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Metodo sobrecargado con código.
+        /// </summary>
+        internal static string GP002Titulo {
+            get {
+                return ResourceManager.GetString("GP002Titulo", resourceCulture);
             }
         }
     }

@@ -65,7 +65,7 @@
       }
     },
     "C:\\AnalizadorSIP\\AnalyzerTests\\AnalyzerTests.Package\\AnalyzerTests.Package.csproj": {
-      "version": "1.0.0.2",
+      "version": "1.0.0.4",
       "restore": {
         "projectUniqueName": "C:\\AnalizadorSIP\\AnalyzerTests\\AnalyzerTests.Package\\AnalyzerTests.Package.csproj",
         "projectName": "AnalyzerTests",

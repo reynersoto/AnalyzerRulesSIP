@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AnalizadorSIP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CA458F-64CF-4303-809B-267D3A2AEA46}|AnalyzerTests\\AnalyzerTests\\AnalyzerTests.csproj|c:\\analizadorsip\\analyzertests\\analyzertests\\methodanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CA458F-64CF-4303-809B-267D3A2AEA46}|AnalyzerTests\\AnalyzerTests\\AnalyzerTests.csproj|solutionrelative:analyzertests\\analyzertests\\methodanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CA458F-64CF-4303-809B-267D3A2AEA46}|AnalyzerTests\\AnalyzerTests\\AnalyzerTests.csproj|c:\\analizadorsip\\analyzertests\\analyzertests\\lineanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CA458F-64CF-4303-809B-267D3A2AEA46}|AnalyzerTests\\AnalyzerTests\\AnalyzerTests.csproj|solutionrelative:analyzertests\\analyzertests\\lineanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85661F30-134F-4630-92F8-ACA14D46CD55}|AnalyzerTests\\AnalyzerTests.Test\\AnalyzerTests.Test.csproj|c:\\analizadorsip\\analyzertests\\analyzertests.test\\analyzertestsunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85661F30-134F-4630-92F8-ACA14D46CD55}|AnalyzerTests\\AnalyzerTests.Test\\AnalyzerTests.Test.csproj|solutionrelative:analyzertests\\analyzertests.test\\analyzertestsunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8519B619-2DE3-4B1F-9B13-EFF5B3DA242A}|AnalyzerTests\\AnalyzerTests.Package\\AnalyzerTests.Package.csproj|c:\\analizadorsip\\analyzertests\\analyzertests.package\\analyzertests.package.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8519B619-2DE3-4B1F-9B13-EFF5B3DA242A}|AnalyzerTests\\AnalyzerTests.Package\\AnalyzerTests.Package.csproj|solutionrelative:analyzertests\\analyzertests.package\\analyzertests.package.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnalyzerTestsUnitTests.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\AnalyzerTests\\AnalyzerTests.Test\\AnalyzerTestsUnitTests.cs",
+              "RelativeDocumentMoniker": "AnalyzerTests\\AnalyzerTests.Test\\AnalyzerTestsUnitTests.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\AnalyzerTests\\AnalyzerTests.Test\\AnalyzerTestsUnitTests.cs",
+              "RelativeToolTip": "AnalyzerTests\\AnalyzerTests.Test\\AnalyzerTestsUnitTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T21:53:19.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnalyzerTests.Package.csproj",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\AnalyzerTests\\AnalyzerTests.Package\\AnalyzerTests.Package.csproj",
+              "RelativeDocumentMoniker": "AnalyzerTests\\AnalyzerTests.Package\\AnalyzerTests.Package.csproj",
+              "ToolTip": "C:\\AnalizadorSIP\\AnalyzerTests\\AnalyzerTests.Package\\AnalyzerTests.Package.csproj",
+              "RelativeToolTip": "AnalyzerTests\\AnalyzerTests.Package\\AnalyzerTests.Package.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-29T21:44:13.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MethodAnalyzer.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\AnalyzerTests\\AnalyzerTests\\MethodAnalyzer.cs",
+              "RelativeDocumentMoniker": "AnalyzerTests\\AnalyzerTests\\MethodAnalyzer.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\AnalyzerTests\\AnalyzerTests\\MethodAnalyzer.cs",
+              "RelativeToolTip": "AnalyzerTests\\AnalyzerTests\\MethodAnalyzer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwBEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T21:32:03.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LineAnalyzer.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\AnalyzerTests\\AnalyzerTests\\LineAnalyzer.cs",
+              "RelativeDocumentMoniker": "AnalyzerTests\\AnalyzerTests\\LineAnalyzer.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\AnalyzerTests\\AnalyzerTests\\LineAnalyzer.cs",
+              "RelativeToolTip": "AnalyzerTests\\AnalyzerTests\\LineAnalyzer.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T21:22:03.462Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
