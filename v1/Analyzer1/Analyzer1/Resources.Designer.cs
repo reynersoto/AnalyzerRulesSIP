@@ -122,5 +122,32 @@ namespace Analyzer1 {
                 return ResourceManager.GetString("GP002Titulo", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El comentario inicia con minúscula, cambielo a mayúscula..
+        /// </summary>
+        internal static string GP003Descripcion {
+            get {
+                return ResourceManager.GetString("GP003Descripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Los comentarios deben iniciar en mayúscula..
+        /// </summary>
+        internal static string GP003Mensaje {
+            get {
+                return ResourceManager.GetString("GP003Mensaje", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Los comentarios deben iniciar en mayúscula..
+        /// </summary>
+        internal static string GP003Titulo {
+            get {
+                return ResourceManager.GetString("GP003Titulo", resourceCulture);
+            }
+        }
     }
 }

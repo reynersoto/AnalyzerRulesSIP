@@ -141,4 +141,13 @@
   <data name="GP001MaxCharInLine" xml:space="preserve">
     <value>130</value>
   </data>
+  <data name="GP003Descripcion" xml:space="preserve">
+    <value>El comentario inicia con minúscula, cambielo a mayúscula.</value>
+  </data>
+  <data name="GP003Mensaje" xml:space="preserve">
+    <value>Los comentarios deben iniciar en mayúscula.</value>
+  </data>
+  <data name="GP003Titulo" xml:space="preserve">
+    <value>Los comentarios deben iniciar en mayúscula.</value>
+  </data>
 </root>
