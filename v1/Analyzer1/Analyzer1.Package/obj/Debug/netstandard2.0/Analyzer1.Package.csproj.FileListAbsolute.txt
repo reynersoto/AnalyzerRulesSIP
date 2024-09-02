@@ -1,0 +1,17 @@
+C:\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\tools\install.ps1
+C:\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\tools\uninstall.ps1
+C:\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.Package.deps.json
+C:\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.Package.dll
+C:\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.Package.pdb
+C:\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.CodeFixes.dll
+C:\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.dll
+C:\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.CodeFixes.pdb
+C:\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.pdb
+C:\Analyzer1\Analyzer1.Package\obj\Debug\netstandard2.0\Analyzer1.Package.csproj.AssemblyReference.cache
+C:\Analyzer1\Analyzer1.Package\obj\Debug\netstandard2.0\Analyzer1.Package.GeneratedMSBuildEditorConfig.editorconfig
+C:\Analyzer1\Analyzer1.Package\obj\Debug\netstandard2.0\Analyzer1.Package.AssemblyInfoInputs.cache
+C:\Analyzer1\Analyzer1.Package\obj\Debug\netstandard2.0\Analyzer1.Package.AssemblyInfo.cs
+C:\Analyzer1\Analyzer1.Package\obj\Debug\netstandard2.0\Analyzer1.Package.csproj.CoreCompileInputs.cache
+C:\Analyzer1\Analyzer1.Package\obj\Debug\netstandard2.0\Analyzer.3C1D7964.Up2Date
+C:\Analyzer1\Analyzer1.Package\obj\Debug\netstandard2.0\Analyzer1.Package.dll
+C:\Analyzer1\Analyzer1.Package\obj\Debug\netstandard2.0\Analyzer1.Package.pdb

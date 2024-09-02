@@ -1,0 +1,15 @@
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\bin\Debug\net8.0\AnalyzerTests.deps.json
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\bin\Debug\net8.0\AnalyzerTests.dll
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\bin\Debug\net8.0\AnalyzerTests.pdb
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\AnalyzerTests.csproj.AssemblyReference.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\AnalyzerTests.Resources.resources
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\AnalyzerTests.csproj.GenerateResource.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\AnalyzerTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\AnalyzerTests.AssemblyInfoInputs.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\AnalyzerTests.AssemblyInfo.cs
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\AnalyzerTests.csproj.CoreCompileInputs.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\AnalyzerTests.sourcelink.json
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\AnalyzerTests.dll
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\refint\AnalyzerTests.dll
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\AnalyzerTests.pdb
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests\obj\Debug\net8.0\ref\AnalyzerTests.dll

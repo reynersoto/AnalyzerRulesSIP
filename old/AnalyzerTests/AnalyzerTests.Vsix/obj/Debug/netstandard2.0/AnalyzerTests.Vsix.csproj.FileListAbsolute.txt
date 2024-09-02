@@ -1,0 +1,8 @@
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Vsix\obj\Debug\netstandard2.0\AnalyzerTests.Vsix.csproj.AssemblyReference.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Vsix\obj\Debug\netstandard2.0\_EmptyResource.resources
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Vsix\obj\Debug\netstandard2.0\AnalyzerTests.Vsix.csproj.GenerateResource.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Vsix\obj\Debug\netstandard2.0\AnalyzerTests.Vsix.GeneratedMSBuildEditorConfig.editorconfig
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Vsix\obj\Debug\netstandard2.0\AnalyzerTests.Vsix.AssemblyInfoInputs.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Vsix\obj\Debug\netstandard2.0\AnalyzerTests.Vsix.AssemblyInfo.cs
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Vsix\obj\Debug\netstandard2.0\AnalyzerTests.Vsix.csproj.CoreCompileInputs.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Vsix\obj\Debug\netstandard2.0\AnalyzerTests.Vsix.sourcelink.json

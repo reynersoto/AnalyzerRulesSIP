@@ -1,0 +1,8 @@
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Test\obj\Debug\netstandard2.0\AnalyzerTests.Test.csproj.AssemblyReference.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Test\obj\Debug\netstandard2.0\AnalyzerTests.Test.csproj.SuggestedBindingRedirects.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Test\obj\Debug\netstandard2.0\AnalyzerTests.Test.dll.config
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Test\obj\Debug\netstandard2.0\AnalyzerTests.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Test\obj\Debug\netstandard2.0\AnalyzerTests.Test.AssemblyInfoInputs.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Test\obj\Debug\netstandard2.0\AnalyzerTests.Test.AssemblyInfo.cs
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Test\obj\Debug\netstandard2.0\AnalyzerTests.Test.csproj.CoreCompileInputs.cache
+C:\AnalizadorSIP\AnalyzerTests\AnalyzerTests.Test\obj\Debug\netstandard2.0\AnalyzerTests.Test.sourcelink.json

@@ -1,0 +1,15 @@
+C:\Analyzer1\Analyzer1.CodeFixes\bin\Debug\netstandard2.0\Analyzer1.CodeFixes.deps.json
+C:\Analyzer1\Analyzer1.CodeFixes\bin\Debug\netstandard2.0\Analyzer1.CodeFixes.dll
+C:\Analyzer1\Analyzer1.CodeFixes\bin\Debug\netstandard2.0\Analyzer1.CodeFixes.pdb
+C:\Analyzer1\Analyzer1.CodeFixes\bin\Debug\netstandard2.0\Analyzer1.dll
+C:\Analyzer1\Analyzer1.CodeFixes\bin\Debug\netstandard2.0\Analyzer1.pdb
+C:\Analyzer1\Analyzer1.CodeFixes\obj\Debug\netstandard2.0\Analyzer1.CodeFixes.csproj.AssemblyReference.cache
+C:\Analyzer1\Analyzer1.CodeFixes\obj\Debug\netstandard2.0\Analyzer1.CodeFixResources.resources
+C:\Analyzer1\Analyzer1.CodeFixes\obj\Debug\netstandard2.0\Analyzer1.CodeFixes.csproj.GenerateResource.cache
+C:\Analyzer1\Analyzer1.CodeFixes\obj\Debug\netstandard2.0\Analyzer1.CodeFixes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Analyzer1\Analyzer1.CodeFixes\obj\Debug\netstandard2.0\Analyzer1.CodeFixes.AssemblyInfoInputs.cache
+C:\Analyzer1\Analyzer1.CodeFixes\obj\Debug\netstandard2.0\Analyzer1.CodeFixes.AssemblyInfo.cs
+C:\Analyzer1\Analyzer1.CodeFixes\obj\Debug\netstandard2.0\Analyzer1.CodeFixes.csproj.CoreCompileInputs.cache
+C:\Analyzer1\Analyzer1.CodeFixes\obj\Debug\netstandard2.0\Analyzer.DD7E8740.Up2Date
+C:\Analyzer1\Analyzer1.CodeFixes\obj\Debug\netstandard2.0\Analyzer1.CodeFixes.dll
+C:\Analyzer1\Analyzer1.CodeFixes\obj\Debug\netstandard2.0\Analyzer1.CodeFixes.pdb
