@@ -9793,11 +9793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Analyzer1\\Analyzer1.Test\\Analyzer1.Test.csproj",
+      "projectUniqueName": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Test\\Analyzer1.Test.csproj",
       "projectName": "Analyzer1.Test",
-      "projectPath": "C:\\Analyzer1\\Analyzer1.Test\\Analyzer1.Test.csproj",
+      "projectPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Test\\Analyzer1.Test.csproj",
       "packagesPath": "C:\\Users\\hatre\\.nuget\\packages\\",
-      "outputPath": "C:\\Analyzer1\\Analyzer1.Test\\obj\\",
+      "outputPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9820,11 +9820,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj": {
-              "projectPath": "C:\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj"
+            "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj": {
+              "projectPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj"
             },
-            "C:\\Analyzer1\\Analyzer1\\Analyzer1.csproj": {
-              "projectPath": "C:\\Analyzer1\\Analyzer1\\Analyzer1.csproj"
+            "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\Analyzer1.csproj": {
+              "projectPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\Analyzer1.csproj"
             }
           }
         }

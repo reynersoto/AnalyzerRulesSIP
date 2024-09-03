@@ -149,5 +149,32 @@ namespace Analyzer1 {
                 return ResourceManager.GetString("GP003Titulo", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Los comentarios no deben estar mezclados..
+        /// </summary>
+        internal static string GP005Descripcion {
+            get {
+                return ResourceManager.GetString("GP005Descripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El comentario debe posicionarse en una linea de forma independiente!.
+        /// </summary>
+        internal static string GP005Mensaje {
+            get {
+                return ResourceManager.GetString("GP005Mensaje", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Comentarios mezclados con codigo.
+        /// </summary>
+        internal static string GP005Titulo {
+            get {
+                return ResourceManager.GetString("GP005Titulo", resourceCulture);
+            }
+        }
     }
 }

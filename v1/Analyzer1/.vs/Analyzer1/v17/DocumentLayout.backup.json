@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Analyzer1\\",
+  "WorkspaceRootPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|c:\\analyzer1\\analyzer1\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|solutionrelative:analyzer1\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E4187F4-7AA3-42E7-8BA2-3825E7DD1EE6}|Analyzer1.Test\\Analyzer1.Test.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1.test\\analyzertestsunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E4187F4-7AA3-42E7-8BA2-3825E7DD1EE6}|Analyzer1.Test\\Analyzer1.Test.csproj|solutionrelative:analyzer1.test\\analyzertestsunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|c:\\analyzer1\\analyzer1\\lineanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|solutionrelative:analyzer1\\lineanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|c:\\analyzer1\\analyzer1\\methodanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|solutionrelative:analyzer1\\methodanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82624F2-8D99-419C-B39E-60FB8B69CAF6}|Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj|c:\\analyzer1\\analyzer1.codefixes\\analyzertestscodefixprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B82624F2-8D99-419C-B39E-60FB8B69CAF6}|Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1.codefixes\\analyzertestscodefixprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B82624F2-8D99-419C-B39E-60FB8B69CAF6}|Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj|solutionrelative:analyzer1.codefixes\\analyzertestscodefixprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E4187F4-7AA3-42E7-8BA2-3825E7DD1EE6}|Analyzer1.Test\\Analyzer1.Test.csproj|c:\\analyzer1\\analyzer1.test\\analyzertestsunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E4187F4-7AA3-42E7-8BA2-3825E7DD1EE6}|Analyzer1.Test\\Analyzer1.Test.csproj|solutionrelative:analyzer1.test\\analyzertestsunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1\\commentscapital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|solutionrelative:analyzer1\\commentscapital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1\\methodanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|solutionrelative:analyzer1\\methodanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1\\lineanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|solutionrelative:analyzer1\\lineanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Resources.Designer.cs",
-              "DocumentMoniker": "C:\\Analyzer1\\Analyzer1\\Resources.Designer.cs",
-              "RelativeDocumentMoniker": "Analyzer1\\Resources.Designer.cs",
-              "ToolTip": "C:\\Analyzer1\\Analyzer1\\Resources.Designer.cs",
-              "RelativeToolTip": "Analyzer1\\Resources.Designer.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAACkAAAB7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:39:52.9Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -95,37 +82,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LineAnalyzer.cs",
-              "DocumentMoniker": "C:\\Analyzer1\\Analyzer1\\LineAnalyzer.cs",
-              "RelativeDocumentMoniker": "Analyzer1\\LineAnalyzer.cs",
-              "ToolTip": "C:\\Analyzer1\\Analyzer1\\LineAnalyzer.cs",
-              "RelativeToolTip": "Analyzer1\\LineAnalyzer.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAwBUAAABHAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CommentsCapital.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\CommentsCapital.cs",
+              "RelativeDocumentMoniker": "Analyzer1\\CommentsCapital.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\CommentsCapital.cs",
+              "RelativeToolTip": "Analyzer1\\CommentsCapital.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:29:43.289Z",
+              "WhenOpened": "2024-09-03T16:13:48.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "LineAnalyzer.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\LineAnalyzer.cs",
+              "RelativeDocumentMoniker": "Analyzer1\\LineAnalyzer.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\LineAnalyzer.cs",
+              "RelativeToolTip": "Analyzer1\\LineAnalyzer.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwBUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T19:29:43.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AnalyzerTestsUnitTests.cs",
-              "DocumentMoniker": "C:\\Analyzer1\\Analyzer1.Test\\AnalyzerTestsUnitTests.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Test\\AnalyzerTestsUnitTests.cs",
               "RelativeDocumentMoniker": "Analyzer1.Test\\AnalyzerTestsUnitTests.cs",
-              "ToolTip": "C:\\Analyzer1\\Analyzer1.Test\\AnalyzerTestsUnitTests.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Test\\AnalyzerTestsUnitTests.cs",
               "RelativeToolTip": "Analyzer1.Test\\AnalyzerTestsUnitTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAqwFwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T19:23:00.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AnalyzerTestsCodeFixProvider.cs",
-              "DocumentMoniker": "C:\\Analyzer1\\Analyzer1.CodeFixes\\AnalyzerTestsCodeFixProvider.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\AnalyzerTestsCodeFixProvider.cs",
               "RelativeDocumentMoniker": "Analyzer1.CodeFixes\\AnalyzerTestsCodeFixProvider.cs",
-              "ToolTip": "C:\\Analyzer1\\Analyzer1.CodeFixes\\AnalyzerTestsCodeFixProvider.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\AnalyzerTestsCodeFixProvider.cs",
               "RelativeToolTip": "Analyzer1.CodeFixes\\AnalyzerTestsCodeFixProvider.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAAwC4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -134,16 +133,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MethodAnalyzer.cs",
-              "DocumentMoniker": "C:\\Analyzer1\\Analyzer1\\MethodAnalyzer.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\MethodAnalyzer.cs",
               "RelativeDocumentMoniker": "Analyzer1\\MethodAnalyzer.cs",
-              "ToolTip": "C:\\Analyzer1\\Analyzer1\\MethodAnalyzer.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\MethodAnalyzer.cs",
               "RelativeToolTip": "Analyzer1\\MethodAnalyzer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:14:52.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T19:14:52.322Z"
             }
           ]
         }

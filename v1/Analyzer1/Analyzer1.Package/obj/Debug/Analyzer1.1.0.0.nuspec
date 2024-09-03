@@ -12,12 +12,12 @@
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright</copyright>
     <tags>Analyzer1, analyzers</tags>
-    <repository type="git" url="http://REPOSITORY_URL_HERE_OR_DELETE_THIS_LINE" />
+    <repository type="git" url="http://REPOSITORY_URL_HERE_OR_DELETE_THIS_LINE" commit="e74b78f22481273d6a92ec701c42f18dd3bc24bc" />
   </metadata>
   <files>
-    <file src="C:\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.dll" target="analyzers\dotnet\cs\Analyzer1.dll" />
-    <file src="C:\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.CodeFixes.dll" target="analyzers\dotnet\cs\Analyzer1.CodeFixes.dll" />
-    <file src="C:\Analyzer1\Analyzer1.Package\tools\install.ps1" target="tools\install.ps1" />
-    <file src="C:\Analyzer1\Analyzer1.Package\tools\uninstall.ps1" target="tools\uninstall.ps1" />
+    <file src="C:\AnalizadorSIP\v1\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.dll" target="analyzers\dotnet\cs\Analyzer1.dll" />
+    <file src="C:\AnalizadorSIP\v1\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.CodeFixes.dll" target="analyzers\dotnet\cs\Analyzer1.CodeFixes.dll" />
+    <file src="C:\AnalizadorSIP\v1\Analyzer1\Analyzer1.Package\tools\install.ps1" target="tools\install.ps1" />
+    <file src="C:\AnalizadorSIP\v1\Analyzer1\Analyzer1.Package\tools\uninstall.ps1" target="tools\uninstall.ps1" />
   </files>
 </package>

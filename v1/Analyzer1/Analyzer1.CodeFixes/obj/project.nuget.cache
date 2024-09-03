@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k6yADbXGgO8=",
+  "dgSpecHash": "vaMsswtVtTs=",
   "success": true,
-  "projectFilePath": "C:\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj",
+  "projectFilePath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hatre\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.9.8\\microsoft.codeanalysis.analyzers.2.9.8.nupkg.sha512",
     "C:\\Users\\hatre\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\microsoft.codeanalysis.common.3.3.1.nupkg.sha512",

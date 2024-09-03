@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GWNbww15VCQ=",
+  "dgSpecHash": "OaAZtMkOGZU=",
   "success": true,
-  "projectFilePath": "C:\\Analyzer1\\Analyzer1.Test\\Analyzer1.Test.csproj",
+  "projectFilePath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Test\\Analyzer1.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hatre\\.nuget\\packages\\diffplex\\1.4.4\\diffplex.1.4.4.nupkg.sha512",
     "C:\\Users\\hatre\\.nuget\\packages\\microsoft.codeanalysis\\3.3.1\\microsoft.codeanalysis.3.3.1.nupkg.sha512",

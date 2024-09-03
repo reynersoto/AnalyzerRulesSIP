@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Analyzer1\\Analyzer1.Vsix\\Analyzer1.Vsix.csproj": {}
+    "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Vsix\\Analyzer1.Vsix.csproj": {}
   },
   "projects": {
-    "C:\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj": {
+    "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj",
+        "projectUniqueName": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj",
         "projectName": "Analyzer1.CodeFixes",
-        "projectPath": "C:\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj",
+        "projectPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj",
         "packagesPath": "C:\\Users\\hatre\\.nuget\\packages\\",
-        "outputPath": "C:\\Analyzer1\\Analyzer1.CodeFixes\\obj\\",
+        "outputPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,8 +34,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Analyzer1\\Analyzer1\\Analyzer1.csproj": {
-                "projectPath": "C:\\Analyzer1\\Analyzer1\\Analyzer1.csproj"
+              "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\Analyzer1.csproj": {
+                "projectPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\Analyzer1.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Analyzer1\\Analyzer1.Vsix\\Analyzer1.Vsix.csproj": {
+    "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Vsix\\Analyzer1.Vsix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Analyzer1\\Analyzer1.Vsix\\Analyzer1.Vsix.csproj",
+        "projectUniqueName": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Vsix\\Analyzer1.Vsix.csproj",
         "projectName": "Analyzer1.Vsix",
-        "projectPath": "C:\\Analyzer1\\Analyzer1.Vsix\\Analyzer1.Vsix.csproj",
+        "projectPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Vsix\\Analyzer1.Vsix.csproj",
         "packagesPath": "C:\\Users\\hatre\\.nuget\\packages\\",
-        "outputPath": "C:\\Analyzer1\\Analyzer1.Vsix\\obj\\",
+        "outputPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Vsix\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -112,11 +112,11 @@
           "net472": {
             "targetAlias": "net472",
             "projectReferences": {
-              "C:\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj": {
-                "projectPath": "C:\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj"
+              "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj": {
+                "projectPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj"
               },
-              "C:\\Analyzer1\\Analyzer1\\Analyzer1.csproj": {
-                "projectPath": "C:\\Analyzer1\\Analyzer1\\Analyzer1.csproj"
+              "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\Analyzer1.csproj": {
+                "projectPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\Analyzer1.csproj"
               }
             }
           }
@@ -147,14 +147,14 @@
         }
       }
     },
-    "C:\\Analyzer1\\Analyzer1\\Analyzer1.csproj": {
+    "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\Analyzer1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Analyzer1\\Analyzer1\\Analyzer1.csproj",
+        "projectUniqueName": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\Analyzer1.csproj",
         "projectName": "*Analyzer1.csproj*",
-        "projectPath": "C:\\Analyzer1\\Analyzer1\\Analyzer1.csproj",
+        "projectPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\Analyzer1.csproj",
         "packagesPath": "C:\\Users\\hatre\\.nuget\\packages\\",
-        "outputPath": "C:\\Analyzer1\\Analyzer1\\obj\\",
+        "outputPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

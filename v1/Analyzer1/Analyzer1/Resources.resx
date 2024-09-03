@@ -150,4 +150,13 @@
   <data name="GP003Titulo" xml:space="preserve">
     <value>Los comentarios deben iniciar en mayúscula.</value>
   </data>
+  <data name="GP005Mensaje" xml:space="preserve">
+    <value>El comentario debe posicionarse en una linea de forma independiente!</value>
+  </data>
+  <data name="GP005Descripcion" xml:space="preserve">
+    <value>Los comentarios no deben estar mezclados.</value>
+  </data>
+  <data name="GP005Titulo" xml:space="preserve">
+    <value>Comentarios mezclados con codigo</value>
+  </data>
 </root>

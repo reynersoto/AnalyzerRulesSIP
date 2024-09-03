@@ -6,6 +6,9 @@ using VerifyCS = Analyzer1.Test.CSharpCodeFixVerifier<
 using VerifyCS2 = Analyzer1.Test.CSharpCodeFixVerifier<
     Analyzer1.MethodAnalyzer,
     Analyzer1.AnalyzerTestsCodeFixProvider>;
+using VerifyCS3 = Analyzer1.Test.CSharpCodeFixVerifier<
+    Analyzer1.CommentIndependecyAnalyzer,
+    Analyzer1.AnalyzerTestsCodeFixProvider>;
 
 namespace Analyzer1.Test
 {
@@ -85,6 +88,33 @@ void O(int valor)
     }
 }";
             await VerifyCS2.VerifyAnalyzerAsync(test);
+        }
+        [TestMethod]
+        public async Task TestMethod3()
+        {
+            var test = @"class C
+{
+
+void O(int valor)
+    {  
+            //1
+            valor = 1; 
+            if (valor == 1) 
+            {               
+//5
+                valor=2;    
+            }               
+            //8
+            //9
+valor = 2;  
+            //11
+
+            //12
+    }
+}";
+
+            await VerifyCS3.VerifyAnalyzerAsync(test);
+
         }
     }
 }
