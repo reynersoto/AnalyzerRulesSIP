@@ -159,4 +159,13 @@
   <data name="GP005Titulo" xml:space="preserve">
     <value>Comentarios mezclados con codigo</value>
   </data>
+  <data name="GP006Descripcion" xml:space="preserve">
+    <value>Los comentarios terminan con punto.</value>
+  </data>
+  <data name="GP006Mensaje" xml:space="preserve">
+    <value>Insertar punto final del comentario</value>
+  </data>
+  <data name="GP006Titulo" xml:space="preserve">
+    <value>El comentario deben de terminar con punto final.</value>
+  </data>
 </root>
