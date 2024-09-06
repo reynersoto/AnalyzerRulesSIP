@@ -10,7 +10,7 @@ using Microsoft.CodeAnalysis.CSharp;
 namespace Analyzer1
 {
     [DiagnosticAnalyzer(LanguageNames.CSharp)]
-    internal class CommentsCapital : DiagnosticAnalyzer
+    public class CommentsCapital : DiagnosticAnalyzer
     {
         public const string DiagnosticId = "GP003";
 

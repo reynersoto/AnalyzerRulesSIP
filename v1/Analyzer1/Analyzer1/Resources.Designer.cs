@@ -176,5 +176,32 @@ namespace Analyzer1 {
                 return ResourceManager.GetString("GP005Titulo", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Los comentarios terminan con punto.
+        /// </summary>
+        internal static string GP006Descripcion {
+            get {
+                return ResourceManager.GetString("GP006Descripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Insertar punto final del comentario.
+        /// </summary>
+        internal static string GP006Mensaje {
+            get {
+                return ResourceManager.GetString("GP006Mensaje", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El comentario deben de terminar con punto final.
+        /// </summary>
+        internal static string GP006Titulo {
+            get {
+                return ResourceManager.GetString("GP006Titulo", resourceCulture);
+            }
+        }
     }
 }

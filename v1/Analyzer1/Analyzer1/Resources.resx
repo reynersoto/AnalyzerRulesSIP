@@ -119,15 +119,12 @@
   </resheader>
   <data name="GP001Description" xml:space="preserve">
     <value>Las líneas no pueden superar los 130 caracteres!</value>
-    <comment>An optional longer localizable description of the diagnostic.</comment>
   </data>
   <data name="GP001MessageFormat" xml:space="preserve">
     <value>La línea supera los 130 caracteres, debe continuar en una nueva línea</value>
-    <comment>The format-able message the diagnostic displays.</comment>
   </data>
   <data name="GP001Title" xml:space="preserve">
     <value>Caracteres por línea superados</value>
-    <comment>The title of the diagnostic.</comment>
   </data>
   <data name="GP002Titulo" xml:space="preserve">
     <value>Metodo sobrecargado con código</value>
@@ -160,13 +157,13 @@
     <value>Comentarios mezclados con codigo</value>
   </data>
   <data name="GP006Descripcion" xml:space="preserve">
-    <value>Los comentarios terminan con punto.</value>
+    <value>Los comentarios terminan con punto</value>
   </data>
   <data name="GP006Mensaje" xml:space="preserve">
     <value>Insertar punto final del comentario</value>
   </data>
   <data name="GP006Titulo" xml:space="preserve">
-    <value>El comentario deben de terminar con punto final.</value>
+    <value>El comentario deben de terminar con punto final</value>
   </data>
   <data name="GP007Descripcion" xml:space="preserve">
     <value>El campo estatico debe contener el prefijo s_</value>

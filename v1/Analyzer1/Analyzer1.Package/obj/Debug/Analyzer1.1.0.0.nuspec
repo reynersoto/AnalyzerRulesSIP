@@ -12,7 +12,7 @@
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright</copyright>
     <tags>Analyzer1, analyzers</tags>
-    <repository type="git" url="http://REPOSITORY_URL_HERE_OR_DELETE_THIS_LINE" commit="e74b78f22481273d6a92ec701c42f18dd3bc24bc" />
+    <repository type="git" url="http://REPOSITORY_URL_HERE_OR_DELETE_THIS_LINE" commit="6e50f8121c7d8f6c9392f2637bb6b2eb72a947fb" />
   </metadata>
   <files>
     <file src="C:\AnalizadorSIP\v1\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.dll" target="analyzers\dotnet\cs\Analyzer1.dll" />

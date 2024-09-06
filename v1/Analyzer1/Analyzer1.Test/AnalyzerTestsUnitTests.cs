@@ -2,13 +2,13 @@
 using System.Threading.Tasks;
 using VerifyCS = Analyzer1.Test.CSharpCodeFixVerifier<
     Analyzer1.LineAnalyzer,
-    Analyzer1.AnalyzerTestsCodeFixProvider>;
+    Analyzer1.CommentsCapitalCodeFixProvider>;
 using VerifyCS2 = Analyzer1.Test.CSharpCodeFixVerifier<
     Analyzer1.MethodAnalyzer,
-    Analyzer1.AnalyzerTestsCodeFixProvider>;
+    Analyzer1.CommentsCapitalCodeFixProvider>;
 using VerifyCS3 = Analyzer1.Test.CSharpCodeFixVerifier<
     Analyzer1.CommentIndependecyAnalyzer,
-    Analyzer1.AnalyzerTestsCodeFixProvider>;
+    Analyzer1.CommentsCapitalCodeFixProvider>;
 
 namespace Analyzer1.Test
 {

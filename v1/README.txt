@@ -5,3 +5,4 @@ GP005. Analizador de comentarios para que se coloquen en lineas nuevas y no al f
 GP006. Analizador de comentarios para terminen con punto
 GP007. Analizador para prefijos s_ en campos static.
 GP008. Analizador para prefijos t_ en campos thread static.
+CF003. Se agrega CodeFix para remplazar comentarios que inician en mayusculas.
