@@ -10,7 +10,7 @@ using System.Linq;
 namespace Analyzer1
 {
     [DiagnosticAnalyzer(LanguageNames.CSharp)]
-    internal class CommentEndsWithPeriodAnalyzer : DiagnosticAnalyzer
+    public class CommentEndsWithPeriodAnalyzer : DiagnosticAnalyzer
     {
         public const string DiagnosticId = "GP006";
 
@@ -44,7 +44,7 @@ namespace Analyzer1
 
             foreach (var comment in trivia)
             {
-                var commentText = comment.ToString().TrimStart('/', '*').Trim();
+                var commentText = comment.ToString().TrimStart('/', '*').Trim().TrimEnd('*','/');
 
                 // Verificar si el comentario tiene al menos un carácter y si no termina con un punto.
                 if (!string.IsNullOrEmpty(commentText) && !commentText.EndsWith("."))

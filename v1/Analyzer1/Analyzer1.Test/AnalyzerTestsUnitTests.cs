@@ -9,6 +9,9 @@ using VerifyCS2 = Analyzer1.Test.CSharpCodeFixVerifier<
 using VerifyCS3 = Analyzer1.Test.CSharpCodeFixVerifier<
     Analyzer1.CommentIndependecyAnalyzer,
     Analyzer1.CommentsCapitalCodeFixProvider>;
+using VerifyCS4 = Analyzer1.Test.CSharpCodeFixVerifier<
+    Analyzer1.CommentEndsWithPeriodAnalyzer,
+    Analyzer1.CommentsCapitalCodeFixProvider>;
 
 namespace Analyzer1.Test
 {
@@ -115,6 +118,28 @@ valor = 2;
 
             await VerifyCS3.VerifyAnalyzerAsync(test);
 
+        }
+        [TestMethod]
+        public async Task TestMethod4()
+        {
+            var test = @"
+                        using System;
+                        using System.Collections.Generic;
+                        using System.Linq;
+                        using System.Text;
+                        using System.Threading.Tasks;
+                        using System.Diagnostics;
+
+                        namespace ConsoleApplication1
+                        {
+                            class {|#0:TypeName|}
+                            {   
+                            /* Prueba
+                                de comentarios.*/
+                            }
+                        }";
+
+            await VerifyCS4.VerifyAnalyzerAsync(test);
         }
     }
 }

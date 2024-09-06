@@ -166,7 +166,7 @@
     <value>El comentario deben de terminar con punto final</value>
   </data>
   <data name="GP007Descripcion" xml:space="preserve">
-    <value>El campo estatico debe contener el prefijo s_</value>
+    <value>El campo estático debe contener el prefijo s_</value>
   </data>
   <data name="GP007Mensaje" xml:space="preserve">
     <value>Agregue el prefijo s_</value>
@@ -175,7 +175,7 @@
     <value>Falta el prefijo s_</value>
   </data>
   <data name="GP008Descripcion" xml:space="preserve">
-    <value>El campo estatico debe contener el prefijo t_</value>
+    <value>El campo estático debe contener el prefijo t_</value>
   </data>
   <data name="GP008Mensaje" xml:space="preserve">
     <value>Agregue el prefijo t_</value>

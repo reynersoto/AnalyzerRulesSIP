@@ -203,5 +203,59 @@ namespace Analyzer1 {
                 return ResourceManager.GetString("GP006Titulo", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El campo estático debe contener el prefijo s_.
+        /// </summary>
+        internal static string GP007Descripcion {
+            get {
+                return ResourceManager.GetString("GP007Descripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Agregue el prefijo s_.
+        /// </summary>
+        internal static string GP007Mensaje {
+            get {
+                return ResourceManager.GetString("GP007Mensaje", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Falta el prefijo s_.
+        /// </summary>
+        internal static string GP007Titulo {
+            get {
+                return ResourceManager.GetString("GP007Titulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El campo estático debe contener el prefijo t_.
+        /// </summary>
+        internal static string GP008Descripcion {
+            get {
+                return ResourceManager.GetString("GP008Descripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Agregue el prefijo t_.
+        /// </summary>
+        internal static string GP008Mensaje {
+            get {
+                return ResourceManager.GetString("GP008Mensaje", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Falta el prefijo t_.
+        /// </summary>
+        internal static string GP008Titulo {
+            get {
+                return ResourceManager.GetString("GP008Titulo", resourceCulture);
+            }
+        }
     }
 }

@@ -68,5 +68,14 @@ namespace Analyzer1 {
                 return ResourceManager.GetString("GP003TituloFix", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a test.
+        /// </summary>
+        internal static string String2 {
+            get {
+                return ResourceManager.GetString("String2", resourceCulture);
+            }
+        }
     }
 }
