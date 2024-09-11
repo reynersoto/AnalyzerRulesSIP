@@ -16,7 +16,7 @@ namespace Analyzer1
     public class LineAnalyzer : DiagnosticAnalyzer
     {
         public const string DiagnosticId = "GP001";
-        private const Int32 _maxLineLength = 130;
+        private const Int32 _maxLineLength = 170;
         // SE ESTABLECEN LAS CARACTERISTICAS DE LA REGLA ANTERIOR
         private static readonly LocalizableString s_Title 
             = new LocalizableResourceString(nameof(Resources.GP001Title), Resources.ResourceManager, typeof(Resources));
@@ -47,7 +47,7 @@ namespace Analyzer1
 
         private static void IsLineLenghtGreaterThan130(SyntaxTreeAnalysisContext context, SourceText text)
         {
-            // ANALIZA EL DOCUMENTO Y SE ASEGURA DE QUE CADA LINEA DEL DOCUMENTO NO PASE DE 130 CARACTERES.
+            // ANALIZA EL DOCUMENTO Y SE ASEGURA DE QUE CADA LINEA DEL DOCUMENTO NO PASE DE 170 CARACTERES.
             foreach (var line in text.Lines)
             {
                 if (line.ToString().Length > _maxLineLength)

@@ -118,25 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="GP001Description" xml:space="preserve">
-    <value>Las líneas no pueden superar los 130 caracteres!</value>
+    <value>Las líneas no pueden superar los 170 caracteres.</value>
+    <comment>An optional longer localizable description of the diagnostic.</comment>
   </data>
   <data name="GP001MessageFormat" xml:space="preserve">
-    <value>La línea supera los 130 caracteres, debe continuar en una nueva línea</value>
+    <value>La línea supera los 170 caracteres, debe continuar en una nueva línea.</value>
+    <comment>The format-able message the diagnostic displays.</comment>
   </data>
   <data name="GP001Title" xml:space="preserve">
-    <value>Caracteres por línea superados</value>
+    <value>Caracteres por línea superados.</value>
+    <comment>The title of the diagnostic.</comment>
   </data>
   <data name="GP002Titulo" xml:space="preserve">
-    <value>Metodo sobrecargado con código</value>
+    <value>El método supera la cantidad de lineas.</value>
   </data>
   <data name="GP002Mensaje" xml:space="preserve">
-    <value>El método contiene demasiadas líneas de código Refactorice para mantener un código más legible</value>
+    <value>El método contiene más de 40 líneas de código. </value>
   </data>
   <data name="GP002Descripcion" xml:space="preserve">
-    <value>El Método tiene demasiadas líneas de código!</value>
+    <value>El método tiene demasiadas líneas de código.</value>
   </data>
   <data name="GP001MaxCharInLine" xml:space="preserve">
-    <value>130</value>
+    <value>170</value>
   </data>
   <data name="GP003Descripcion" xml:space="preserve">
     <value>El comentario inicia con minúscula, cambielo a mayúscula.</value>
@@ -145,28 +148,28 @@
     <value>Los comentarios deben iniciar en mayúscula.</value>
   </data>
   <data name="GP003Titulo" xml:space="preserve">
-    <value>Los comentarios deben iniciar en mayúscula.</value>
+    <value>El comentario inicia con minúscula.</value>
   </data>
   <data name="GP005Mensaje" xml:space="preserve">
-    <value>El comentario debe posicionarse en una linea de forma independiente!</value>
+    <value>El comentario debe posicionarse en una linea de forma independiente.</value>
   </data>
   <data name="GP005Descripcion" xml:space="preserve">
     <value>Los comentarios no deben estar mezclados.</value>
   </data>
   <data name="GP005Titulo" xml:space="preserve">
-    <value>Comentarios mezclados con codigo</value>
+    <value>Comentarios mezclados con codigo.</value>
   </data>
   <data name="GP006Descripcion" xml:space="preserve">
-    <value>Los comentarios terminan con punto</value>
+    <value>Los comentarios deben terminan con punto.</value>
   </data>
   <data name="GP006Mensaje" xml:space="preserve">
-    <value>Insertar punto final del comentario</value>
+    <value>Insertar punto final al comentario.</value>
   </data>
   <data name="GP006Titulo" xml:space="preserve">
-    <value>El comentario deben de terminar con punto final</value>
+    <value>El comentario deben de terminar con punto final.</value>
   </data>
   <data name="GP007Descripcion" xml:space="preserve">
-    <value>El campo estático debe contener el prefijo s_</value>
+    <value>El campo estatico debe contener el prefijo s_</value>
   </data>
   <data name="GP007Mensaje" xml:space="preserve">
     <value>Agregue el prefijo s_</value>
@@ -175,12 +178,21 @@
     <value>Falta el prefijo s_</value>
   </data>
   <data name="GP008Descripcion" xml:space="preserve">
-    <value>El campo estático debe contener el prefijo t_</value>
+    <value>El campo estatico debe contener el prefijo t_</value>
   </data>
   <data name="GP008Mensaje" xml:space="preserve">
     <value>Agregue el prefijo t_</value>
   </data>
   <data name="GP008Titulo" xml:space="preserve">
     <value>Falta el prefijo t_</value>
+  </data>
+  <data name="GP004Descripcion" xml:space="preserve">
+    <value>Debe haber al menos una línea en blanco entre las definiciones de métodos y las definiciones de propiedades</value>
+  </data>
+  <data name="GP004Mensaje" xml:space="preserve">
+    <value>Inserte una línea en blanco entre las definiciones de métodos y las definiciones de propiedades</value>
+  </data>
+  <data name="GP004Titulo" xml:space="preserve">
+    <value>Falta linea en blanco</value>
   </data>
 </root>

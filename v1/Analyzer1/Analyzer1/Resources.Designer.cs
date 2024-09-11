@@ -61,7 +61,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Las líneas no pueden superar los 130 caracteres!.
+        ///   Busca una cadena traducida similar a Las líneas no pueden superar los 170 caracteres..
         /// </summary>
         internal static string GP001Description {
             get {
@@ -70,7 +70,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 130.
+        ///   Busca una cadena traducida similar a 170.
         /// </summary>
         internal static string GP001MaxCharInLine {
             get {
@@ -79,7 +79,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a La línea supera los 130 caracteres, debe continuar en una nueva línea.
+        ///   Busca una cadena traducida similar a La línea supera los 170 caracteres, debe continuar en una nueva línea..
         /// </summary>
         internal static string GP001MessageFormat {
             get {
@@ -88,7 +88,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Caracteres por línea superados.
+        ///   Busca una cadena traducida similar a Caracteres por línea superados..
         /// </summary>
         internal static string GP001Title {
             get {
@@ -97,7 +97,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a El Método tiene demasiadas líneas de código!.
+        ///   Busca una cadena traducida similar a El método tiene demasiadas líneas de código..
         /// </summary>
         internal static string GP002Descripcion {
             get {
@@ -106,7 +106,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a El método contiene demasiadas líneas de código Refactorice para mantener un código más legible.
+        ///   Busca una cadena traducida similar a El método contiene más de 40 líneas de código. .
         /// </summary>
         internal static string GP002Mensaje {
             get {
@@ -115,7 +115,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Metodo sobrecargado con código.
+        ///   Busca una cadena traducida similar a El método supera la cantidad de lineas..
         /// </summary>
         internal static string GP002Titulo {
             get {
@@ -142,11 +142,38 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Los comentarios deben iniciar en mayúscula..
+        ///   Busca una cadena traducida similar a El comentario inicia con minúscula..
         /// </summary>
         internal static string GP003Titulo {
             get {
                 return ResourceManager.GetString("GP003Titulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Debe haber al menos una línea en blanco entre las definiciones de métodos y las definiciones de propiedades.
+        /// </summary>
+        internal static string GP004Descripcion {
+            get {
+                return ResourceManager.GetString("GP004Descripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Inserte una línea en blanco entre las definiciones de métodos y las definiciones de propiedades.
+        /// </summary>
+        internal static string GP004Mensaje {
+            get {
+                return ResourceManager.GetString("GP004Mensaje", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Falta linea en blanco.
+        /// </summary>
+        internal static string GP004Titulo {
+            get {
+                return ResourceManager.GetString("GP004Titulo", resourceCulture);
             }
         }
         
@@ -160,7 +187,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a El comentario debe posicionarse en una linea de forma independiente!.
+        ///   Busca una cadena traducida similar a El comentario debe posicionarse en una linea de forma independiente..
         /// </summary>
         internal static string GP005Mensaje {
             get {
@@ -169,7 +196,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Comentarios mezclados con codigo.
+        ///   Busca una cadena traducida similar a Comentarios mezclados con codigo..
         /// </summary>
         internal static string GP005Titulo {
             get {
@@ -178,7 +205,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Los comentarios terminan con punto.
+        ///   Busca una cadena traducida similar a Los comentarios deben terminan con punto..
         /// </summary>
         internal static string GP006Descripcion {
             get {
@@ -187,7 +214,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Insertar punto final del comentario.
+        ///   Busca una cadena traducida similar a Insertar punto final al comentario..
         /// </summary>
         internal static string GP006Mensaje {
             get {
@@ -196,7 +223,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a El comentario deben de terminar con punto final.
+        ///   Busca una cadena traducida similar a El comentario deben de terminar con punto final..
         /// </summary>
         internal static string GP006Titulo {
             get {
@@ -205,7 +232,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a El campo estático debe contener el prefijo s_.
+        ///   Busca una cadena traducida similar a El campo estatico debe contener el prefijo s_.
         /// </summary>
         internal static string GP007Descripcion {
             get {
@@ -232,7 +259,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a El campo estático debe contener el prefijo t_.
+        ///   Busca una cadena traducida similar a El campo estatico debe contener el prefijo t_.
         /// </summary>
         internal static string GP008Descripcion {
             get {
