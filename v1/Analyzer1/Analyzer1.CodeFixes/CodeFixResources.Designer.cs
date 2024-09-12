@@ -79,6 +79,15 @@ namespace Analyzer1 {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Mover comentario a una nueva línea..
+        /// </summary>
+        internal static string GP005Fix {
+            get {
+                return ResourceManager.GetString("GP005Fix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Agregar punto al final del comentario.
         /// </summary>
         internal static string GP006Fix {

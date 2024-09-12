@@ -126,4 +126,7 @@
   <data name="GP006Fix" xml:space="preserve">
     <value>Agregar punto al final del comentario</value>
   </data>
+  <data name="GP005Fix" xml:space="preserve">
+    <value>Mover comentario a una nueva línea.</value>
+  </data>
 </root>
