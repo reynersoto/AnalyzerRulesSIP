@@ -7,3 +7,5 @@ GP006. Analizador de comentarios para terminen con punto.
 GP007. Analizador para prefijos s_ en campos static.
 GP008. Analizador para prefijos t_ en campos thread static.
 CF003. Se agrega CodeFix para remplazar comentarios que inician en mayusculas.
+CFGEN. Se agrega CodeFix para formatear comentarios y que se apliquen ambas reglas.
+CF006. Se agrega CodeFix para agregar punto al final de comentarios.
