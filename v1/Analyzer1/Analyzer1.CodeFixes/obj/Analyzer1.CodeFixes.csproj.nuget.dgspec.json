@@ -58,7 +58,7 @@
           "dependencies": {
             "Microsoft.CodeAnalysis.CSharp.Workspaces": {
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[4.11.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -131,12 +131,14 @@
           "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.9.8, )"
+              "version": "[3.3.4, )"
             },
             "Microsoft.CodeAnalysis.CSharp": {
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[4.11.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

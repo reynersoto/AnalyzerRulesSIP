@@ -9,8 +9,8 @@
 
   <PropertyGroup>
     <PackageId>Analyzer1</PackageId>
-    <PackageVersion>1.0.0.1</PackageVersion>
-    <Authors>hatre</Authors>
+    <PackageVersion>1.0.0.4</PackageVersion>
+    <Authors>TEAMGP</Authors>
     <PackageLicenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</PackageLicenseUrl>
     <PackageProjectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</PackageProjectUrl>
     <PackageIconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</PackageIconUrl>
