@@ -27,7 +27,7 @@ namespace Analyzer1
             = new LocalizableResourceString(nameof(Resources.GP002Mensaje), Resources.ResourceManager, typeof(Resources));
         private static readonly LocalizableString s_Descripcion 
             = new LocalizableResourceString(nameof(Resources.GP002Descripcion), Resources.ResourceManager, typeof(Resources));
-        private const string s_Category = "SIP.Estructura";
+        private const string s_Category = "SIP.FORMATO";
         #endregion
 
         private static readonly DiagnosticDescriptor Rule = new DiagnosticDescriptor(DiagnosticId, s_Titulo, s_Mensaje, s_Category,

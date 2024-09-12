@@ -24,7 +24,7 @@ namespace Analyzer1
             = new LocalizableResourceString(nameof(Resources.GP001MessageFormat), Resources.ResourceManager, typeof(Resources));
         private static readonly LocalizableString s_Description 
             = new LocalizableResourceString(nameof(Resources.GP001Description), Resources.ResourceManager, typeof(Resources));
-        private const string s_Category = "SIP.Estilo";
+        private const string s_Category = "SIP.FORMATO";
 
         private static readonly DiagnosticDescriptor Rule = new DiagnosticDescriptor(DiagnosticId, s_Title, s_MessageFormat, s_Category, 
             DiagnosticSeverity.Error, isEnabledByDefault: true, description: s_Description);

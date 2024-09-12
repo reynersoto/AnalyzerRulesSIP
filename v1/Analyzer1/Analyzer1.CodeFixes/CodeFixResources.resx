@@ -120,7 +120,10 @@
   <data name="GP003TituloFix" xml:space="preserve">
     <value>Convertir en mayúscula.</value>
   </data>
-  <data name="String2" xml:space="preserve">
-    <value>test</value>
+  <data name="GP003TituloSkip" xml:space="preserve">
+    <value>Omitir error aplicando regla de todos modos.</value>
+  </data>
+  <data name="GP006Fix" xml:space="preserve">
+    <value>Agregar punto al final del comentario</value>
   </data>
 </root>

@@ -70,11 +70,20 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a test.
+        ///   Busca una cadena traducida similar a Omitir error aplicando regla de todos modos..
         /// </summary>
-        internal static string String2 {
+        internal static string GP003TituloSkip {
             get {
-                return ResourceManager.GetString("String2", resourceCulture);
+                return ResourceManager.GetString("GP003TituloSkip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Agregar punto al final del comentario.
+        /// </summary>
+        internal static string GP006Fix {
+            get {
+                return ResourceManager.GetString("GP006Fix", resourceCulture);
             }
         }
     }

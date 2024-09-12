@@ -38,7 +38,11 @@ namespace Analyzer1
     {
         context.RegisterCodeFix(CodeAction.Create(CodeFixResources.GP003TituloFix, 
                 token => MakeFirstLetterOfCommentUpperCaseAsync(context.Document, diagnostic, token)), diagnostic);
-    }
+
+        context.RegisterCodeFix(CodeAction.Create(CodeFixResources.GP003TituloSkip,
+            token => SkipMakeFirstLetterOfCommentUpperCaseAsync(context.Document, diagnostic, token)), diagnostic);
+
+      }
 
     return Task.FromResult<object>(null);
 }
@@ -46,14 +50,22 @@ namespace Analyzer1
 
         private async Task<Document> MakeFirstLetterOfCommentUpperCaseAsync(Document document, Diagnostic diagnostic, CancellationToken cancellationToken)
         {
-            var (root, node, newTrivia) = await FindTriviaAndPrepareNewOne(document, diagnostic, cancellationToken);
+            var (root, node, newTrivia) = await FindTriviaAndPrepareNewOne(document, diagnostic, cancellationToken, false);
 
             var newRoot = EnlistNewTriviaAndReplaceItNewRoot(node, root, newTrivia);
 
             // Return document with transformed tree.
             return document.WithSyntaxRoot(newRoot);
         }
+        private async Task<Document> SkipMakeFirstLetterOfCommentUpperCaseAsync(Document document, Diagnostic diagnostic, CancellationToken cancellationToken)
+        {
+            var (root, node, newTrivia) = await FindTriviaAndPrepareNewOne(document, diagnostic, cancellationToken, true);
 
+            var newRoot = EnlistNewTriviaAndReplaceItNewRoot(node, root, newTrivia);
+
+            // Return document with transformed tree.
+            return document.WithSyntaxRoot(newRoot);
+        }
         private static SyntaxNode EnlistNewTriviaAndReplaceItNewRoot(SyntaxTrivia node, SyntaxNode root, SyntaxTrivia newTrivia)
         {
             var listTrivias = new List<SyntaxTrivia>();
@@ -65,21 +77,23 @@ namespace Analyzer1
         }
 
         private static async Task<(SyntaxNode root, SyntaxTrivia node, SyntaxTrivia newTrivia)> FindTriviaAndPrepareNewOne(Document document, Diagnostic diagnostic,
-            CancellationToken cancellationToken)
+            CancellationToken cancellationToken, bool isSkipped)
         {
             var root = await document.GetSyntaxRootAsync(cancellationToken).ConfigureAwait(false);
             var node = root.FindTrivia(diagnostic.Location.SourceSpan.Start, true);
             
-            var newTrivia = PrepareNewTriviaUsingReWriter(node);
+            var newTrivia = PrepareNewTriviaUsingReWriter(node, isSkipped);
 
             return (root, node, newTrivia);
         }
 
-        private static SyntaxTrivia PrepareNewTriviaUsingReWriter(SyntaxTrivia node)
+        private static SyntaxTrivia PrepareNewTriviaUsingReWriter(SyntaxTrivia node, bool skippedTrivia)
         {
             var myRewriter = new MyRewriter();
-            var newTrivia = myRewriter.VisitTrivia(node);
-            return newTrivia;
+            if (skippedTrivia)
+                return myRewriter.SkipTrivia(node,  @" GP003 autocorrección",node.ToFullString());
+            else
+                return myRewriter.VisitTrivia(node);
         }
     }
 }

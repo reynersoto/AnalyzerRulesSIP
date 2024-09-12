@@ -16,20 +16,96 @@ public class MyRewriter : CSharpSyntaxRewriter
         return base.VisitTrivia(trivia);
     }
 
+    public SyntaxTrivia SkipTrivia(SyntaxTrivia trivia, string ruleNumber, string originalText)
+    {
+        return AddPreCommentToTrivia(trivia, ruleNumber, originalText);
+    }
+    public SyntaxTrivia AddPeriod(SyntaxTrivia trivia, string ruleNumber, string originalText)
+    {
+        string formatedText = AddPeriodToCommentIfItsNeeded(trivia, originalText);
+        return SyntaxFactory.Comment(formatedText);
+    }
+
     private static SyntaxTrivia SyntaxTrivia(SyntaxTrivia trivia, string trimChars)
     {
         string xml = trivia.ToFullString();
-        var newLine = "";
+        string newLine = "", openers = "", closers = "";
         var argsToSplitString = SetArgsToSplitString(xml);
 
         newLine = MakesFirstLetterUpperCase(argsToSplitString, newLine);
 
-        return SyntaxFactory.Comment(newLine.TrimStart(trimChars.ToCharArray()));
+        if (trivia.IsKind(SyntaxKind.SingleLineCommentTrivia) || trivia.IsKind(SyntaxKind.DisabledTextTrivia))
+            openers = "//";
+        if (trivia.IsKind(SyntaxKind.MultiLineCommentTrivia))
+        {
+            openers = "/*";
+            closers = "*/";
+        }
+             
+        return SyntaxFactory.Comment(openers + newLine + closers);
+    }
+    private static SyntaxTrivia AddPreCommentToTrivia(SyntaxTrivia trivia, string ruleNumber, string originalText)
+    {
+            var trimChars = @" +.-";
+            originalText = originalText.TrimStart(trimChars.ToCharArray());
+            int insertPosition = 2;
+            string formatedText = InsertStringAtPosition(originalText, ruleNumber, insertPosition);
+            
+            formatedText = AddPeriodToCommentIfItsNeeded(trivia, formatedText);
+
+        return SyntaxFactory.Comment(formatedText);
+    }
+    
+
+    private static string AddPeriodToCommentIfItsNeeded(SyntaxTrivia trivia, string formatedText)
+    {
+        if (!IsLastCharacterPeriod(formatedText) &&
+                (trivia.IsKind(SyntaxKind.SingleLineCommentTrivia) || trivia.IsKind(SyntaxKind.DisabledTextTrivia)))
+            formatedText = formatedText + ".";
+        if (trivia.IsKind(SyntaxKind.MultiLineCommentTrivia))
+            formatedText = InsertCharAtLastPosition(formatedText, ".", formatedText.Length-2);
+        return formatedText;
     }
 
+    private static string InsertStringAtPosition(string originalComment, string textToInsert, int position)
+    {
+        // Verifica que la posición es válida
+        if (position < 0 || position > originalComment.Length)
+            throw new ArgumentOutOfRangeException(nameof(position), "La posición debe estar dentro del rango del string originalComment.");
+
+        // Divide el string originalComment en dos partes: antes y después de la posición de inserción
+        string beforeInsertion = originalComment.Substring(0, position);
+        string afterInsertion = originalComment.Substring(position);
+
+        // Concatena las partes y el string a insertar
+        string result = beforeInsertion + textToInsert + " " + afterInsertion;
+
+        return result;
+    }
+    private static string InsertCharAtLastPosition(string originalComment, string textToInsert, int position)
+    {
+        if (position < 0 || position > originalComment.Length)
+            throw new ArgumentOutOfRangeException(nameof(position), "La posición debe estar dentro del rango del string originalComment.");
+
+        string beforeInsertion = originalComment.Substring(0, position);
+        string afterInsertion = originalComment.Substring(position);
+
+        if(!IsLastCharacterPeriod(beforeInsertion))
+            return beforeInsertion + textToInsert + afterInsertion;
+
+        return originalComment;
+    }
+
+    private static bool IsLastCharacterPeriod(string lastCharInput)
+    {
+        if (string.IsNullOrEmpty(lastCharInput))
+            return false;
+        char lastChar = lastCharInput[lastCharInput.Length - 1];
+        return lastChar == '.';
+    }
     private static string[] SetArgsToSplitString(string xml)
     {
-        char[] delim = { ' ', '\n', '\t', '\r' };
+        char[] delim = { ' ','/','*' };
         var ar = xml.Split(delim, StringSplitOptions.RemoveEmptyEntries);
         return ar;
     }
@@ -38,7 +114,7 @@ public class MyRewriter : CSharpSyntaxRewriter
     {
         for (int i = 0; i < ar.Length; i++)
         {
-            if (i == 1) ar[i] = FirstCharToUpper(ar[i]);
+            if (i == 0) ar[i] = FirstCharToUpper(ar[i]);
             newLine = newLine + " " + ar[i];
         }
         return newLine;
