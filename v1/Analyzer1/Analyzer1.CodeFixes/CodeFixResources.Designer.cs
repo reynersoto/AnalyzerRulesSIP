@@ -61,6 +61,15 @@ namespace Analyzer1 {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Dividir lineas.
+        /// </summary>
+        internal static string GP001Fix {
+            get {
+                return ResourceManager.GetString("GP001Fix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Convertir en mayúscula..
         /// </summary>
         internal static string GP003TituloFix {

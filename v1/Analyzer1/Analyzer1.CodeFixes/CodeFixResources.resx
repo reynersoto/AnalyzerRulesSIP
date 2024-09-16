@@ -129,4 +129,7 @@
   <data name="GP005Fix" xml:space="preserve">
     <value>Mover comentario a una nueva línea.</value>
   </data>
+  <data name="GP001Fix" xml:space="preserve">
+    <value>Dividir lineas</value>
+  </data>
 </root>
