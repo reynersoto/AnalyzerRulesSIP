@@ -115,11 +115,20 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Asignar prefijo a la variable estática..
+        ///   Busca una cadena traducida similar a Asignar prefijo s_ a la variable static..
         /// </summary>
         internal static string GP007Fix {
             get {
                 return ResourceManager.GetString("GP007Fix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Asignar prefijo t_ a la variable thread static..
+        /// </summary>
+        internal static string GP008Fix {
+            get {
+                return ResourceManager.GetString("GP008Fix", resourceCulture);
             }
         }
     }

@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|solutionrelative:analyzer1\\staticfieldnaminganalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1\\threadstaticfieldnaminganalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|solutionrelative:analyzer1\\threadstaticfieldnaminganalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B82624F2-8D99-419C-B39E-60FB8B69CAF6}|Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1.codefixes\\movetocommentnewline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B82624F2-8D99-419C-B39E-60FB8B69CAF6}|Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj|solutionrelative:analyzer1.codefixes\\movetocommentnewline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,6 +75,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ThreadStaticFieldNamingAnalyzer.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\ThreadStaticFieldNamingAnalyzer.cs",
+              "RelativeDocumentMoniker": "Analyzer1\\ThreadStaticFieldNamingAnalyzer.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\ThreadStaticFieldNamingAnalyzer.cs",
+              "RelativeToolTip": "Analyzer1\\ThreadStaticFieldNamingAnalyzer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:44:25.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MoveToCommentNewLine.cs",
               "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\MoveToCommentNewLine.cs",
               "RelativeDocumentMoniker": "Analyzer1.CodeFixes\\MoveToCommentNewLine.cs",
@@ -90,7 +107,8 @@
               "RelativeToolTip": "Analyzer1\\StaticFieldNamingAnalyzer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:44:32.589Z"
+              "WhenOpened": "2024-09-17T15:44:32.589Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -100,14 +118,14 @@
               "RelativeDocumentMoniker": "Analyzer1.CodeFixes\\StaticFieldsCodeFixProvider.cs",
               "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\StaticFieldsCodeFixProvider.cs",
               "RelativeToolTip": "Analyzer1.CodeFixes\\StaticFieldsCodeFixProvider.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAqwDQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAA6wDsAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T15:42:20.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Analyzer1UnitTests.cs",
               "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Test\\Analyzer1UnitTests.cs",
               "RelativeDocumentMoniker": "Analyzer1.Test\\Analyzer1UnitTests.cs",

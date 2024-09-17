@@ -136,6 +136,9 @@
     <value>Agregar línea en blanco</value>
   </data>
   <data name="GP007Fix" xml:space="preserve">
-    <value>Asignar prefijo a la variable estática.</value>
+    <value>Asignar prefijo s_ a la variable static.</value>
+  </data>
+  <data name="GP008Fix" xml:space="preserve">
+    <value>Asignar prefijo t_ a la variable thread static.</value>
   </data>
 </root>
