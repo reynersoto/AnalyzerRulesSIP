@@ -88,6 +88,15 @@ namespace Analyzer1 {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Agregar línea en blanco.
+        /// </summary>
+        internal static string GP004Fix {
+            get {
+                return ResourceManager.GetString("GP004Fix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Mover comentario a una nueva línea..
         /// </summary>
         internal static string GP005Fix {

@@ -8,7 +8,7 @@ using Microsoft.CodeAnalysis.Diagnostics;
 namespace Analyzer1
 {
     [DiagnosticAnalyzer(LanguageNames.CSharp)]
-    internal class PropertySpacingAnalyzer : DiagnosticAnalyzer
+    public class PropertySpacingAnalyzer : DiagnosticAnalyzer
     {
         public const string DiagnosticId = "GP004";
 

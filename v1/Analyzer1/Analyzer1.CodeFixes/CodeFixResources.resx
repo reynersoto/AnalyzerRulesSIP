@@ -132,4 +132,7 @@
   <data name="GP001Fix" xml:space="preserve">
     <value>Dividir lineas</value>
   </data>
+  <data name="GP004Fix" xml:space="preserve">
+    <value>Agregar línea en blanco</value>
+  </data>
 </root>
