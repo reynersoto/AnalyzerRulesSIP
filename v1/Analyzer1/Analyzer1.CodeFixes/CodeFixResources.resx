@@ -135,4 +135,7 @@
   <data name="GP004Fix" xml:space="preserve">
     <value>Agregar línea en blanco</value>
   </data>
+  <data name="GP007Fix" xml:space="preserve">
+    <value>Asignar prefijo a la variable estática.</value>
+  </data>
 </root>

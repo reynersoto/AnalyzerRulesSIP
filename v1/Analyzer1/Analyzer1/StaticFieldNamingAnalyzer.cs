@@ -8,7 +8,7 @@ using Microsoft.CodeAnalysis.Diagnostics;
 namespace Analyzer1
 {
     [DiagnosticAnalyzer(LanguageNames.CSharp)]
-    internal class StaticFieldNamingAnalyzer : DiagnosticAnalyzer
+    public class StaticFieldNamingAnalyzer : DiagnosticAnalyzer
     {
         public const string DiagnosticId = "GP007";
 

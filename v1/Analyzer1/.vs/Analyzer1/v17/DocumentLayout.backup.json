@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B82624F2-8D99-419C-B39E-60FB8B69CAF6}|Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1.codefixes\\staticfieldscodefixprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82624F2-8D99-419C-B39E-60FB8B69CAF6}|Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj|solutionrelative:analyzer1.codefixes\\staticfieldscodefixprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1\\staticfieldnaminganalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB6EF77-2EA8-4741-A2AA-F2135DC682A8}|Analyzer1\\Analyzer1.csproj|solutionrelative:analyzer1\\staticfieldnaminganalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B82624F2-8D99-419C-B39E-60FB8B69CAF6}|Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1.codefixes\\movetocommentnewline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B82624F2-8D99-419C-B39E-60FB8B69CAF6}|Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj|solutionrelative:analyzer1.codefixes\\movetocommentnewline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B82624F2-8D99-419C-B39E-60FB8B69CAF6}|Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1.codefixes\\commentswithoutperiodcodefixprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82624F2-8D99-419C-B39E-60FB8B69CAF6}|Analyzer1.CodeFixes\\Analyzer1.CodeFixes.csproj|solutionrelative:analyzer1.codefixes\\commentswithoutperiodcodefixprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7538247-B689-4A88-941F-3CD35F8D1269}|Analyzer1.Package\\Analyzer1.Package.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1.package\\analyzer1.package.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E7538247-B689-4A88-941F-3CD35F8D1269}|Analyzer1.Package\\Analyzer1.Package.csproj|solutionrelative:analyzer1.package\\analyzer1.package.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{936A9F5A-2823-473E-BCAF-C28E0497B27E}|Analyzer1.Vsix\\Analyzer1.Vsix.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1.vsix\\analyzer1.vsix.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{936A9F5A-2823-473E-BCAF-C28E0497B27E}|Analyzer1.Vsix\\Analyzer1.Vsix.csproj|solutionrelative:analyzer1.vsix\\analyzer1.vsix.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3E4187F4-7AA3-42E7-8BA2-3825E7DD1EE6}|Analyzer1.Test\\Analyzer1.Test.csproj|c:\\analizadorsip\\v1\\analyzer1\\analyzer1.test\\analyzer1unittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E4187F4-7AA3-42E7-8BA2-3825E7DD1EE6}|Analyzer1.Test\\Analyzer1.Test.csproj|solutionrelative:analyzer1.test\\analyzer1unittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,60 +69,54 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MoveToCommentNewLine.cs",
               "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\MoveToCommentNewLine.cs",
               "RelativeDocumentMoniker": "Analyzer1.CodeFixes\\MoveToCommentNewLine.cs",
               "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\MoveToCommentNewLine.cs",
               "RelativeToolTip": "Analyzer1.CodeFixes\\MoveToCommentNewLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAABwAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwCwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T20:07:54.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Analyzer1.Package.csproj",
-              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Package\\Analyzer1.Package.csproj",
-              "RelativeDocumentMoniker": "Analyzer1.Package\\Analyzer1.Package.csproj",
-              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Package\\Analyzer1.Package.csproj",
-              "RelativeToolTip": "Analyzer1.Package\\Analyzer1.Package.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-12T19:05:42.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T17:07:32.792Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CommentsWithoutPeriodCodeFixProvider.cs",
-              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\CommentsWithoutPeriodCodeFixProvider.cs",
-              "RelativeDocumentMoniker": "Analyzer1.CodeFixes\\CommentsWithoutPeriodCodeFixProvider.cs",
-              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\CommentsWithoutPeriodCodeFixProvider.cs",
-              "RelativeToolTip": "Analyzer1.CodeFixes\\CommentsWithoutPeriodCodeFixProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "StaticFieldNamingAnalyzer.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\StaticFieldNamingAnalyzer.cs",
+              "RelativeDocumentMoniker": "Analyzer1\\StaticFieldNamingAnalyzer.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1\\StaticFieldNamingAnalyzer.cs",
+              "RelativeToolTip": "Analyzer1\\StaticFieldNamingAnalyzer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T18:59:54.82Z",
+              "WhenOpened": "2024-09-17T15:44:32.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaticFieldsCodeFixProvider.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\StaticFieldsCodeFixProvider.cs",
+              "RelativeDocumentMoniker": "Analyzer1.CodeFixes\\StaticFieldsCodeFixProvider.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\StaticFieldsCodeFixProvider.cs",
+              "RelativeToolTip": "Analyzer1.CodeFixes\\StaticFieldsCodeFixProvider.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAhwAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:42:20.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Analyzer1.Vsix.csproj",
-              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Vsix\\Analyzer1.Vsix.csproj",
-              "RelativeDocumentMoniker": "Analyzer1.Vsix\\Analyzer1.Vsix.csproj",
-              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Vsix\\Analyzer1.Vsix.csproj",
-              "RelativeToolTip": "Analyzer1.Vsix\\Analyzer1.Vsix.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-12T18:58:23.567Z",
-              "EditorCaption": ""
+              "Title": "Analyzer1UnitTests.cs",
+              "DocumentMoniker": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Test\\Analyzer1UnitTests.cs",
+              "RelativeDocumentMoniker": "Analyzer1.Test\\Analyzer1UnitTests.cs",
+              "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Test\\Analyzer1UnitTests.cs",
+              "RelativeToolTip": "Analyzer1.Test\\Analyzer1UnitTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:36:49.04Z"
             }
           ]
         }

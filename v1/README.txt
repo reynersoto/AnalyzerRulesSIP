@@ -11,3 +11,4 @@ CFGEN. Se agrega CodeFix para formatear comentarios y que se apliquen ambas regl
 CF006. Se agrega CodeFix para agregar punto al final de comentarios.
 CF001. Codefix para dividir las lineas que sobrepasen los 170 caracteres.
 CF004. Codefix para agregar salto de linea entre definiciones de propiedades y definición del método.
+CF007. Codefix para insertar prefijo s_ a campos estáticos.

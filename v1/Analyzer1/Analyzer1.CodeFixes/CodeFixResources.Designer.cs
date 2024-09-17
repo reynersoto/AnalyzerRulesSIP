@@ -113,5 +113,14 @@ namespace Analyzer1 {
                 return ResourceManager.GetString("GP006Fix", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Asignar prefijo a la variable estática..
+        /// </summary>
+        internal static string GP007Fix {
+            get {
+                return ResourceManager.GetString("GP007Fix", resourceCulture);
+            }
+        }
     }
 }
