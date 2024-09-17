@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,10 +69,6 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MoveToCommentNewLine.cs",
@@ -94,8 +90,7 @@
               "RelativeToolTip": "Analyzer1\\StaticFieldNamingAnalyzer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:44:32.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T15:44:32.589Z"
             },
             {
               "$type": "Document",
@@ -105,7 +100,7 @@
               "RelativeDocumentMoniker": "Analyzer1.CodeFixes\\StaticFieldsCodeFixProvider.cs",
               "ToolTip": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.CodeFixes\\StaticFieldsCodeFixProvider.cs",
               "RelativeToolTip": "Analyzer1.CodeFixes\\StaticFieldsCodeFixProvider.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAqwDQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwEQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T15:42:20.678Z",
               "EditorCaption": ""

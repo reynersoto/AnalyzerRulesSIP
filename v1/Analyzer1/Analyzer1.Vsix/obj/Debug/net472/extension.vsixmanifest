@@ -1,6 +1,6 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="Analyzer1.a0b56862-c7a1-4f96-b94d-ba074f39f738" Version="1.0" Language="en-US" Publisher="hatre" />
+    <Identity Id="Analyzer1.c1539e58-f2a0-4e2d-ae60-62baa83096a7" Version="1.0" Language="en-US" Publisher="hatre" />
     <DisplayName>Analyzer1</DisplayName>
     <Description xml:space="preserve">This is a sample diagnostic extension for the .NET Compiler Platform ("Roslyn").</Description>
   </Metadata>

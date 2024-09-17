@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Analyzer1")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbc67485c8aec325bd86bbdd1207447660536c31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e96f6a5a31fb553018b6fd3eaf549161f3171bf9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Analyzer1.Package")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Analyzer1.Package")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

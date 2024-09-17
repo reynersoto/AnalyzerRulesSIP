@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Analyzer1.CodeFixes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbc67485c8aec325bd86bbdd1207447660536c31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e96f6a5a31fb553018b6fd3eaf549161f3171bf9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Analyzer1.CodeFixes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Analyzer1.CodeFixes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
