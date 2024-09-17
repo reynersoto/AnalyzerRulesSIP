@@ -9,4 +9,5 @@ GP008. Analizador para prefijos t_ en campos thread static.
 CF003. Se agrega CodeFix para remplazar comentarios que inician en mayusculas.
 CFGEN. Se agrega CodeFix para formatear comentarios y que se apliquen ambas reglas.
 CF006. Se agrega CodeFix para agregar punto al final de comentarios.
-CF001. Codefix para dividir las lineas que sobrepasen los 170 caracteres
+CF001. Codefix para dividir las lineas que sobrepasen los 170 caracteres.
+CF004. Codefix para agregar salto de linea entre definiciones de propiedades y definición del método.
