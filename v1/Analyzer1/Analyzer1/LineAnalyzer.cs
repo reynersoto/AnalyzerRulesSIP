@@ -16,7 +16,7 @@ namespace Analyzer1
     public class LineAnalyzer : DiagnosticAnalyzer
     {
         public const string DiagnosticId = "GP001";
-        private const Int32 _maxLineLength = 170;
+        private const Int32 _maxLineLength = 185;
         // SE ESTABLECEN LAS CARACTERISTICAS DE LA REGLA ANTERIOR
         private static readonly LocalizableString s_Title 
             = new LocalizableResourceString(nameof(Resources.GP001Title), Resources.ResourceManager, typeof(Resources));

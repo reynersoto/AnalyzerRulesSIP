@@ -9,14 +9,14 @@
 
   <PropertyGroup>
     <PackageId>AnalizadorGP</PackageId>
-    <PackageVersion>1.0.0.1</PackageVersion>
+    <PackageVersion>1.0.0.2</PackageVersion>
     <Authors>Equipo de desarrolladores Gerencia de Pensiones | CCSS</Authors>
     <PackageLicenseUrl>http://www.ccss.sa.cr</PackageLicenseUrl>
     <PackageIconUrl>https://w7.pngwing.com/pngs/104/21/png-transparent-magnifier-glass-icon-nero-vector-stylized-search-investigation-thumbnail.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/reynersoto/AnalyzerRulesSIP.git</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>Estándar de codificación para desarrollos de software en la Gerencia de Pensiones de la CCSS</Description>
-    <PackageReleaseNotes>Incluye 8 analizadores de código y su respectivo Codefix.</PackageReleaseNotes>
+    <PackageReleaseNotes>Se amplia cantidad de caractéres por linea de 170 a 185 y espacio para métodos de 40 a 60</PackageReleaseNotes>
     <Copyright>Copyright</Copyright>
     <PackageTags>Analizador, CCSS, Pensiones</PackageTags>
     <DevelopmentDependency>true</DevelopmentDependency>

@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Estándar de codificación para desarrollos de software en la Gerencia de Pensiones" +
     " de la CCSS")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+003b6756492e59d5a0290cf2d0aa4a8cad1f8fff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c51c5ee2e9a37b24ba765c4dfa1d96d35c45ca5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Analyzer1.Package")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Analyzer1.Package")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

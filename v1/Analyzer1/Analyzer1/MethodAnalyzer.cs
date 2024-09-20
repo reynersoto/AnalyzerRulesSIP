@@ -17,12 +17,12 @@ namespace Analyzer1
     {
         #region VARIABLES
         public const string DiagnosticId = "GP002";
-        private const Int32 _maxMethodLength = 40;
+        private const Int32 _maxMethodLength = 60;
         private Int32 lineCounter = 0;
 
         // SE ESTABLECEN LAS CARACTERISTICAS DE LA REGLA ANTERIOR
         private static readonly LocalizableString s_Titulo 
-            = new LocalizableResourceString(nameof(Resources.GP001Title), Resources.ResourceManager, typeof(Resources));
+            = new LocalizableResourceString(nameof(Resources.GP002Titulo), Resources.ResourceManager, typeof(Resources));
         private static readonly LocalizableString s_Mensaje 
             = new LocalizableResourceString(nameof(Resources.GP002Mensaje), Resources.ResourceManager, typeof(Resources));
         private static readonly LocalizableString s_Descripcion 
