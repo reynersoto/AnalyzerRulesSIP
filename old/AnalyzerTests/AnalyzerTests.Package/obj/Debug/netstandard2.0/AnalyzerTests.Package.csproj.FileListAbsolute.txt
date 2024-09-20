@@ -1,2 +1,0 @@
-F:\OneDriveCCSS\OneDrive - Caja Costarricense de Seguro Social\Ascenso documentos importantes\ProgramaciónPensiones\ProyectoRoslyn\AnalyzerTests\AnalyzerTests\AnalyzerTests.Package\obj\Debug\netstandard2.0\AnalyzerTests.Package.csproj.AssemblyReference.cache
-F:\OneDriveCCSS\OneDrive - Caja Costarricense de Seguro Social\Ascenso documentos importantes\ProgramaciónPensiones\ProyectoRoslyn\AnalyzerTests\AnalyzerTests\AnalyzerTests.Package\obj\Debug\netstandard2.0\AnalyzerTests.Package.GeneratedMSBuildEditorConfig.editorconfig

@@ -61,7 +61,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Las líneas no pueden superar los 170 caracteres..
+        ///   Busca una cadena traducida similar a Las líneas no pueden superar los 185 caracteres..
         /// </summary>
         internal static string GP001Description {
             get {
@@ -70,16 +70,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 170.
-        /// </summary>
-        internal static string GP001MaxCharInLine {
-            get {
-                return ResourceManager.GetString("GP001MaxCharInLine", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a La línea supera los 170 caracteres, debe continuar en una nueva línea..
+        ///   Busca una cadena traducida similar a La línea supera los 185 caracteres, debe continuar en una nueva línea..
         /// </summary>
         internal static string GP001MessageFormat {
             get {
@@ -106,7 +97,7 @@ namespace Analyzer1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a El método contiene más de 40 líneas de código. .
+        ///   Busca una cadena traducida similar a El método contiene más de 60 líneas de código. .
         /// </summary>
         internal static string GP002Mensaje {
             get {

@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="GP001Description" xml:space="preserve">
-    <value>Las líneas no pueden superar los 170 caracteres.</value>
+    <value>Las líneas no pueden superar los 185 caracteres.</value>
     <comment>An optional longer localizable description of the diagnostic.</comment>
   </data>
   <data name="GP001MessageFormat" xml:space="preserve">
-    <value>La línea supera los 170 caracteres, debe continuar en una nueva línea.</value>
+    <value>La línea supera los 185 caracteres, debe continuar en una nueva línea.</value>
     <comment>The format-able message the diagnostic displays.</comment>
   </data>
   <data name="GP001Title" xml:space="preserve">
@@ -133,13 +133,10 @@
     <value>El método supera la cantidad de lineas.</value>
   </data>
   <data name="GP002Mensaje" xml:space="preserve">
-    <value>El método contiene más de 40 líneas de código. </value>
+    <value>El método contiene más de 60 líneas de código. </value>
   </data>
   <data name="GP002Descripcion" xml:space="preserve">
     <value>El método tiene demasiadas líneas de código.</value>
-  </data>
-  <data name="GP001MaxCharInLine" xml:space="preserve">
-    <value>170</value>
   </data>
   <data name="GP003Descripcion" xml:space="preserve">
     <value>El comentario inicia con minúscula, cambielo a mayúscula.</value>

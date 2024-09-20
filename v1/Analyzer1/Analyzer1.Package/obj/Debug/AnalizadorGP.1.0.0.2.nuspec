@@ -11,7 +11,7 @@
     <releaseNotes>Se amplia cantidad de caractéres por linea de 170 a 185 y espacio para métodos de 40 a 60</releaseNotes>
     <copyright>Copyright</copyright>
     <tags>Analizador, CCSS, Pensiones</tags>
-    <repository type="git" url="https://github.com/reynersoto/AnalyzerRulesSIP.git" commit="f7901ccfdac34919edd0873d8106f16eac8e85c7" />
+    <repository type="git" url="https://github.com/reynersoto/AnalyzerRulesSIP.git" commit="6f0a2905d96296cbb041b8f287b6f16b81ca3c2c" />
   </metadata>
   <files>
     <file src="C:\AnalizadorSIP\v1\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.dll" target="analyzers\dotnet\cs\Analyzer1.dll" />
