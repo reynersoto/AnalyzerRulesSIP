@@ -46,7 +46,6 @@ namespace Analyzer1
 
         private void AnalizeMethodBody(SyntaxNodeAnalysisContext context)
         {
-            
             var typeOfBlock = context.Node;
             if (typeOfBlock is MethodDeclarationSyntax)
             {
@@ -58,7 +57,9 @@ namespace Analyzer1
         private static Boolean IsMethodBodyLengthGreaterThanExpected(TextLineCollection lineas, Int32 lineCounter)
         {
             foreach (var line in lineas)
+            {
                 lineCounter++;
+            }
             lineCounter = lineCounter - 3;
             return lineCounter > _maxMethodLength ? true : false;
         }

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>AnalizadorGP</id>
+    <version>1.0.0.1</version>
+    <authors>Equipo de desarrolladores Gerencia de Pensiones | CCSS</authors>
+    <developmentDependency>true</developmentDependency>
+    <licenseUrl>http://www.ccss.sa.cr/</licenseUrl>
+    <iconUrl>https://w7.pngwing.com/pngs/104/21/png-transparent-magnifier-glass-icon-nero-vector-stylized-search-investigation-thumbnail.png</iconUrl>
+    <description>Estándar de codificación para desarrollos de software en la Gerencia de Pensiones de la CCSS</description>
+    <releaseNotes>Incluye 8 analizadores de código y su respectivo Codefix.</releaseNotes>
+    <copyright>Copyright</copyright>
+    <tags>Analizador, CCSS, Pensiones</tags>
+    <repository type="git" url="https://github.com/reynersoto/AnalyzerRulesSIP.git" commit="003b6756492e59d5a0290cf2d0aa4a8cad1f8fff" />
+  </metadata>
+  <files>
+    <file src="C:\AnalizadorSIP\v1\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.dll" target="analyzers\dotnet\cs\Analyzer1.dll" />
+    <file src="C:\AnalizadorSIP\v1\Analyzer1\Analyzer1.Package\bin\Debug\netstandard2.0\Analyzer1.CodeFixes.dll" target="analyzers\dotnet\cs\Analyzer1.CodeFixes.dll" />
+    <file src="C:\AnalizadorSIP\v1\Analyzer1\Analyzer1.Package\tools\install.ps1" target="tools\install.ps1" />
+    <file src="C:\AnalizadorSIP\v1\Analyzer1\Analyzer1.Package\tools\uninstall.ps1" target="tools\uninstall.ps1" />
+  </files>
+</package>

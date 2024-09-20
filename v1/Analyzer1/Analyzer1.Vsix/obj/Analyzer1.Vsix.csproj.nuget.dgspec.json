@@ -25,6 +25,7 @@
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Nugets": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
@@ -101,6 +102,7 @@
           "net472"
         ],
         "sources": {
+          "C:\\Nugets": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
@@ -164,6 +166,7 @@
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Nugets": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}

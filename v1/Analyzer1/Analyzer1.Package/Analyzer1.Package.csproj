@@ -8,18 +8,17 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>Analyzer1</PackageId>
-    <PackageVersion>1.0.0.4</PackageVersion>
-    <Authors>TEAMGP</Authors>
-    <PackageLicenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</PackageLicenseUrl>
-    <PackageProjectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</PackageProjectUrl>
-    <PackageIconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</PackageIconUrl>
-    <RepositoryUrl>http://REPOSITORY_URL_HERE_OR_DELETE_THIS_LINE</RepositoryUrl>
+    <PackageId>AnalizadorGP</PackageId>
+    <PackageVersion>1.0.0.1</PackageVersion>
+    <Authors>Equipo de desarrolladores Gerencia de Pensiones | CCSS</Authors>
+    <PackageLicenseUrl>http://www.ccss.sa.cr</PackageLicenseUrl>
+    <PackageIconUrl>https://w7.pngwing.com/pngs/104/21/png-transparent-magnifier-glass-icon-nero-vector-stylized-search-investigation-thumbnail.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/reynersoto/AnalyzerRulesSIP.git</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Description>Analyzer1</Description>
-    <PackageReleaseNotes>Summary of changes made in this release of the package.</PackageReleaseNotes>
+    <Description>Estándar de codificación para desarrollos de software en la Gerencia de Pensiones de la CCSS</Description>
+    <PackageReleaseNotes>Incluye 8 analizadores de código y su respectivo Codefix.</PackageReleaseNotes>
     <Copyright>Copyright</Copyright>
-    <PackageTags>Analyzer1, analyzers</PackageTags>
+    <PackageTags>Analizador, CCSS, Pensiones</PackageTags>
     <DevelopmentDependency>true</DevelopmentDependency>
     <NoPackageAnalysis>true</NoPackageAnalysis>
 

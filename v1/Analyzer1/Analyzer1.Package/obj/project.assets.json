@@ -2950,10 +2950,10 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0.4",
+    "version": "1.0.0.1",
     "restore": {
       "projectUniqueName": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Package\\Analyzer1.Package.csproj",
-      "projectName": "Analyzer1",
+      "projectName": "AnalizadorGP",
       "projectPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Package\\Analyzer1.Package.csproj",
       "packagesPath": "C:\\Users\\hatre\\.nuget\\packages\\",
       "outputPath": "C:\\AnalizadorSIP\\v1\\Analyzer1\\Analyzer1.Package\\obj\\",
@@ -2970,6 +2970,7 @@
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Nugets": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}

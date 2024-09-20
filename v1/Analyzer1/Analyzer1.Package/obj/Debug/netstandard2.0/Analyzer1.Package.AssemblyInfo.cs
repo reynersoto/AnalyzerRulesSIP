@@ -11,16 +11,17 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TEAMGP")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Equipo de desarrolladores Gerencia de Pensiones | CCSS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Analyzer1")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Estándar de codificación para desarrollos de software en la Gerencia de Pensiones" +
+    " de la CCSS")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e96f6a5a31fb553018b6fd3eaf549161f3171bf9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+003b6756492e59d5a0290cf2d0aa4a8cad1f8fff")]
 [assembly: System.Reflection.AssemblyProductAttribute("Analyzer1.Package")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Analyzer1.Package")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "http://REPOSITORY_URL_HERE_OR_DELETE_THIS_LINE")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/reynersoto/AnalyzerRulesSIP.git")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

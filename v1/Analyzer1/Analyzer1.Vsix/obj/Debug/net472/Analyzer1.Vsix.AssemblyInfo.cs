@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Analyzer1.Vsix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8b712f7ad2eebf603414ab4bf5cee607d293203")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+003b6756492e59d5a0290cf2d0aa4a8cad1f8fff")]
 [assembly: System.Reflection.AssemblyProductAttribute("Analyzer1.Vsix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Analyzer1.Vsix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
